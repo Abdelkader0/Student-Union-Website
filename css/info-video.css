@@ -1,0 +1,44 @@
+/* info-video CSS */
+
+.section-title {
+    text-align: center;
+    font-size: 100px;
+    margin-bottom: 60px;
+    color: #000;
+}
+.section-title h1 {
+    font-size: 87px;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 50px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    top: 34px;
+    color: #342d60;
+}
+
+.section-title h4 {
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 26px;
+    display: inline-block;
+    position: relative;
+    top: 82px;
+    left: -424px;
+    color: #251728;
+}
+
+.destinations {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.destinations-area {
+    background-color: #ffffff;
+}
+.destinations-area .section-title {
+    color: #fff;
+}

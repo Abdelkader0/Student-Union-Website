@@ -1,0 +1,73 @@
+/* About CSS */
+.about-area {
+    padding: 100px 0;
+
+}
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 333px;
+
+}
+.about-content {
+    flex-basis: 55%;
+    overflow-x: hidden;
+    overflow: hidden;
+
+}
+.about-img {
+    flex-basis: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.about-content span {
+    display: block;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.about-content h4 {
+    font-size: 50px;
+    line-height: 50px;
+    text-transform: capitalize;
+    margin: 20px 0;
+}
+.about-content p {
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+}
+.single-about {
+    flex-basis: 100%;
+    margin: 10px 0;
+    position: relative;
+}
+.single-about img {
+    position: absolute;
+    top: -506px;
+    width: 972px;
+    z-index: 9;
+    overflow: hidden;
+    left: -349px;
+}
+
+/* About Responsive */
+/* @media (max-width: 767px) {
+    .about {
+        flex-wrap: wrap;
+    }
+    .about-content {
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+    .about-img {
+        flex-basis: 100%;
+    }
+    .single-about img {
+        position: relative;
+        top: 0;
+        width: 100%;
+    } 
+}*/

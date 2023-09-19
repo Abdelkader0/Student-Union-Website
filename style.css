@@ -1,0 +1,110 @@
+.wave{
+    position: absolute;
+    width: 98.89vw;
+    display: block;
+    top: 381px;
+    z-index: 2;
+}
+.wave-1{
+    position: absolute;
+    width: 98.89vw;
+    display: block;
+    top: 1036px;
+    z-index: 1;
+}
+
+/* Guides CSS */
+.guides-area {
+    background-color: #333;
+    padding: 100px 0;
+}
+.guides-area .section-title {
+    color: #fff;
+    font-size: 61px;
+}
+.guides {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.single-guide {
+    flex-basis: 24%;
+    background-color: #fff;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+.single-guide:hover {
+    opacity: 0.8;
+    transform: scale(1.1);
+    filter: grayscale(100%);
+}
+.single-guide img {
+    width: 100%;
+}
+.single-guide h4 {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 24px;
+    text-transform: capitalize;
+}
+.single-guide h4 span {
+    display: block;
+    font-size: 14px;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+
+/* Blog CSS */
+.blogs-area {
+    padding: 100px 0;
+}
+.blogs {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.single-blog {
+    flex-basis: 32%;
+    background-color: #fff;
+    padding: 15px;
+}
+.single-blog img {
+    width: 100%;
+}
+.blog-img {
+    position: relative;
+}
+.blog-img span {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    background-color: #f15d30;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 8px 20px;
+    font-weight: 600;
+}
+.blog-meta {
+    text-align: center;
+    border-bottom: 1px dashed #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+.blog-meta a {
+    color: #333 !important;
+    margin: 0 10px;
+}
+.single-blog h4 {
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 400;
+}
+.single-blog p {
+    margin: 10px 0;
+}
+.single-blog a {
+    text-transform: capitalize;
+    color: #f15d30;
+}
